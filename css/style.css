@@ -19,16 +19,16 @@ ul{
 
 .header{
     width:100vw;
-    height: 27px;
+    height: 28px;
     background-color: black;
 }
 .tool{
-    width: 960px;
+    width: 955px;
     height: 100%;
     margin: 0 auto;
     color: white;
     font-size: 12px;
-    line-height: 27px;
+    line-height: 28px;
 }
 .id{
     float: left;
@@ -46,4 +46,35 @@ ul{
 }
 .line li{
     display: inline;
+}
+.content{
+    width: 955px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/*logo跟guide list*/
+.guide{
+    position: relative;
+    height: 150px;
+}
+.logo{
+    position: absolute;
+    left: 0;
+}
+.guidelist {
+    width: 560px;
+    padding-top: 10px;
+}
+.guidelist li{
+    font-size: 14px;
+    padding: 0 1em 0 1em;
+    border-right: black solid 1px;
+}
+.right{
+   position: absolute;
+   left:395px;
+}
+.right img{
+ margin-left: 360px;
 }
