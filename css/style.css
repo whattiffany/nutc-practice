@@ -43,7 +43,7 @@ ul{
 .right-tool li{
     padding-right: 0.5em;
     padding-left: 0.5em;
-     border-right: white solid 1px;
+    border-right: white solid 1px;
 }
 .line li{
     display: inline;

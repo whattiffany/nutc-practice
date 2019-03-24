@@ -1,0 +1,63 @@
+@media screen and (max-width: 800px) {
+    .tool{
+        width: 768px;
+        margin:0;
+    }
+    .content{
+        width: 760px;
+        padding-left: 5px; 
+    }
+    .right{
+        left:260px;
+     }
+     .right img{
+        margin-left: 280px;
+       }
+     .guidelist {
+        width: 490px;
+       
+    }
+     .guidelist li{
+        font-size: 12px;  
+    }
+    .slide-img{
+        width: 758px;
+    }
+    .slide-img img{
+        width: 758px;
+    }
+    .body{
+        height: 600px;
+        width: 760px;
+    }
+    .news{
+        position: relative;
+        width: 745px;
+        border-right:none;
+    }
+    .news span{
+        margin-left: 690px;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .newsmsg img{
+        width: 165px;
+    }
+    .bnews{
+        height: 75px;
+        
+    }
+    .news-block{
+        position: relative;
+        left: 0;
+        width: 750px;
+    }
+    .bottom-info img{
+        width: 760px;
+    }
+    .footer{
+        font-size: 11px;  
+        line-height: 40px;
+        height: 30px;     
+    }
+  }
