@@ -86,7 +86,7 @@
         width: 635px;
     }
     .body{
-        height: 600px;
+        height: 700px;
         width: 640px;
     }
     .news{       
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 440px){
     .header{
-        height: 60px;
+        height: 80px;
     }
     .id{
         padding-left: 10px;
@@ -142,6 +142,10 @@
          visibility: hidden;
         margin-left: 0;
      }
+     .content{
+         padding-left: 0px;
+         
+     }
      .guidelist {
         padding-top: 37px;
         width: 430px;
@@ -157,8 +161,10 @@
         width: 95vw;
     }
     .body{
+        height: 700px;
         width: 410px;
     }
+   
     .news{        
         width: 410px;        
     }
