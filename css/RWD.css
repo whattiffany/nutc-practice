@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 780px) {
     .tool{
         width: 768px;
         margin:0;
@@ -12,7 +12,7 @@
      }
      .right img{
         margin-left: 280px;
-       }
+     }
      .guidelist {
         width: 490px;
        
@@ -34,6 +34,7 @@
         position: relative;
         width: 745px;
         border-right:none;
+        padding-right: 0;
     }
     .news span{
         margin-left: 690px;
@@ -60,4 +61,64 @@
         line-height: 40px;
         height: 30px;     
     }
-  }
+}
+
+
+@media screen and (max-width: 650px){
+    .tool{
+        width: 635px;
+    }
+    .right{
+        left:60px;
+     }
+     .right img{
+        margin-left: 350px;
+     }
+     .guidelist {
+        padding-top: 37px;
+        width: 490px;
+    }
+    .slide-img{
+        margin-top: 15px;
+        width: 635px;
+    }
+    .slide-img img{
+        width: 635px;
+    }
+    .body{
+        height: 600px;
+        width: 640px;
+    }
+    .news{
+        position: relative;
+        width: 640px;
+        border-right:none;
+    }
+    .news span{
+        margin-left: 0;
+        font-size: 12px;
+        
+    }
+    .news-block{
+        width: 640px;
+        /* overflow: hidden; */
+    }
+    .news-block td{    
+        padding-right:8px;
+    }
+    .newsmsg{
+        width: 185px;
+    }
+    
+    .block{
+
+    }
+    .bottom-info img{
+        width: 640px;
+    }
+    .footer{
+        line-height: 15px;
+        word-break: normal;
+    }
+
+}
