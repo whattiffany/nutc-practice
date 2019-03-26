@@ -144,7 +144,8 @@
         padding-left: 10px;
     }
     .tool{
-        width: 400px;
+        width: 100vw;
+        font-size: 11px;
     }
     .right{
         left:0;
@@ -159,37 +160,47 @@
      }
      .content{
          padding-left: 0px;
-         width: 410px;
+         width: 100vw;
      }
      .guidelist {
         padding-top: 37px;
-        width: 430px;
+        width: 100vw;
     }
     .guidelist li{        
-        padding: 0 0.5em 0 0.5em;       
+        padding: 0 0.5em 0 0.5em; 
+        font-size: 8px;      
     }
     .slide-img{
         margin-top: 15px;
-        width: 410px;
+        width: 100vw;
     }
     .slide-img img{
-        width: 95vw;
+        width: 100vw;
     }
     .body{
-        height: 770px;
-        width: 410px;
+        height: 720px;
+        width: 100vw;
     }
    
     .news{        
-        width: 410px;        
+        width: 100vw;    
+    }
+    .news ul li{        
+        font-size: 8px;   
     }
     .bottom-info img{
-        width: 410px;
+        width: 100vw;
     }
     .news-block{
-        width: 410px;
+        width: 100vw;
         height: 430px;
       
+    }
+    .news-block h4{
+        font-size: 11px;
+        width:100px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
     }
     .newsmsg{
         width: 105px;
@@ -199,9 +210,10 @@
     }
     .bnews{
         height: 55px;
+        font-size: 10px;
     }
     .block{
-        top:250px;
+        top:220px;
         width: 405px;
     }
     .block li{
